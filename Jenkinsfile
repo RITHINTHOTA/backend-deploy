@@ -55,3 +55,4 @@ pipeline {
              echo "It will run when the pipeline is failure" 
         }
     }
+}
