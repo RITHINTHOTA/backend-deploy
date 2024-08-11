@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "rithin-remotestate"
-    key = "expense-infra-backend"
+    key = "expense-infra-backend1"
     region = "us-east-1"
     dynamodb_table = "rithin-locking"
   }
