@@ -22,6 +22,7 @@ pipeline {
         stage('init'){
             steps{
                 sh """
+                pwd
                 cd terraform
                 terraform init -reconfigure
                 """
